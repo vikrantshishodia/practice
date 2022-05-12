@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+// import { useState } from 'react';
 import './App.css';
+import { ShortCirc } from './components/hooks/ShortCirc';
+import { TodoList } from './components/hooks/TodoList';
+// import { UseStateArray } from './components/hooks/UseStateArray';
+// import { UseStateObject } from './components/hooks/UseStateObject';
+// import { Hook } from './components/hooks/Hook';
+// import { RulesHook } from "./components/hooks/RulesHook";
 
 function App() {
+  // const[count,setCount]=useState(0);
+  // const[myName,setMyName]=useState("vikrant")
+  // const increment =()=>{
+  //  const num=count+1;
+  //   setCount(num)
+  // }
+  // const decrement =()=>{
+  //   const num=count-1;
+  //    setCount(num)
+  //  }
+  //  const changeName=()=>{
+  //   setMyName("vikrant shishodia");
+  //   let val=myName;
+  //   (val === "vikrant" ) ?  setMyName("vikrant shishodia") :  setMyName("vikrant");
+    
+  //  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Hook count={count} increment={increment} decrement={decrement} myName={myName} changeName={changeName}/>  */}
+      {/* <RulesHook /> */}
+      {/* <UseStateArray/> */}
+      {/* <UseStateObject /> */}
+      {/* <TodoList/> */}
+      <ShortCirc />
     </div>
   );
 }
