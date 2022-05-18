@@ -1,7 +1,9 @@
 // import { useState } from 'react';
 import './App.css';
-import { ShortCirc } from './components/hooks/ShortCirc';
-import { TodoList } from './components/hooks/TodoList';
+// import { BasicForm } from './components/hooks/Forms/BasicForm';
+import { UseEffects1 } from "./components/hooks/UseEffect/UseEffects1";
+// import { ShortCirc } from './components/hooks/ShortCirc';
+// import { TodoList } from './components/hooks/TodoList';
 // import { UseStateArray } from './components/hooks/UseStateArray';
 // import { UseStateObject } from './components/hooks/UseStateObject';
 // import { Hook } from './components/hooks/Hook';
@@ -31,7 +33,9 @@ function App() {
       {/* <UseStateArray/> */}
       {/* <UseStateObject /> */}
       {/* <TodoList/> */}
-      <ShortCirc />
+      {/* <ShortCirc /> */}
+      {/* <BasicForm/> */}
+      <UseEffects1 />
     </div>
   );
 }

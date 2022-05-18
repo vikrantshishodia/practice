@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   background-color: #ddd;
   flex-direction: column;
+  padding: 250px 0px;
 }
 
 .App-logo {
